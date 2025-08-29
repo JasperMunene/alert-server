@@ -1,3 +1,23 @@
+# Environment variables file
 .env
+
+# Python virtual environment
 venv/
+
+# Python bytecode
 __pycache__/
+
+# Python-specific files that should also be ignored
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE specific files (example for VS Code)
+.vscode/
+
+# MacOS-specific files (optional)
+.DS_Store
+
+# Log files (optional)
+*.log
